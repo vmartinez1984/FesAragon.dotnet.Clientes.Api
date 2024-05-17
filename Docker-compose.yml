@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3026:80"
+    networks:
+      - app-network
+    container_name: contenedor-dotnet-clientes-api
+
+networks:
+  app-network:
+    driver: bridge
+
+#docker-compose up

@@ -1,26 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/home/vmartinez/Documents/repos/Intersemestral-1-2024/Clientes.Api/Clientes.Api.csproj": {}
+    "C:\\Users\\vmartinez\\source\\repos\\FesAragon-1-intersemestral-2024\\FesAragon.dotnet.Clientes.Api\\Clientes.Api.csproj": {}
   },
   "projects": {
-    "/home/vmartinez/Documents/repos/Intersemestral-1-2024/Clientes.Api/Clientes.Api.csproj": {
+    "C:\\Users\\vmartinez\\source\\repos\\FesAragon-1-intersemestral-2024\\FesAragon.dotnet.Clientes.Api\\Clientes.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vmartinez/Documents/repos/Intersemestral-1-2024/Clientes.Api/Clientes.Api.csproj",
+        "projectUniqueName": "C:\\Users\\vmartinez\\source\\repos\\FesAragon-1-intersemestral-2024\\FesAragon.dotnet.Clientes.Api\\Clientes.Api.csproj",
         "projectName": "Clientes.Api",
-        "projectPath": "/home/vmartinez/Documents/repos/Intersemestral-1-2024/Clientes.Api/Clientes.Api.csproj",
-        "packagesPath": "/home/vmartinez/.nuget/packages/",
-        "outputPath": "/home/vmartinez/Documents/repos/Intersemestral-1-2024/Clientes.Api/obj/",
+        "projectPath": "C:\\Users\\vmartinez\\source\\repos\\FesAragon-1-intersemestral-2024\\FesAragon.dotnet.Clientes.Api\\Clientes.Api.csproj",
+        "packagesPath": "C:\\Users\\vmartinez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vmartinez\\source\\repos\\FesAragon-1-intersemestral-2024\\FesAragon.dotnet.Clientes.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/vmartinez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\vmartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/home/vmartinez/Documents/NugetLocal": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\vmartinez\\Documents\\NugetLocal": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -33,12 +40,21 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.6, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.25.0, )"
@@ -67,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.421/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
